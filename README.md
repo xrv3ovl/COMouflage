@@ -213,30 +213,9 @@ hr = CoCreateInstance(clsid, nullptr,
 ## 5. COMouflage versus EDR's
 
 
-### Microsoft Defender EDR
-Bypass – dllhost.exe activity was observed, but no alert was raised.
-
-
-https://github.com/user-attachments/assets/f6c81b42-14f0-4817-9aa0-fbc388ceef48
-
-Screenshots:
-<img width="2048" height="134" alt="DefenderScrenshot" src="https://github.com/user-attachments/assets/b84a38ed-b99a-4331-b299-bbb776d3ebd7" />
-
-
-### Palo Alto Cortex 
-
-
-Bypass – Cortex also failed to detect the surrogate execution.
-
-
-https://github.com/user-attachments/assets/155cae35-01f4-416a-be67-afd72c26dcff
-
-
-
-### SentinelOne
-
-Bypass – likewise, no detection by SentinelOne.
-
+In this evaluation, four leading Endpoint Detection and Response (EDR) solutions were examined without disclosing vendor identities. The goal was to assess how these solutions react to COMouflage-based surrogate execution. 
+During testing, one solution registered dllhost.exe activity but failed to classify it as suspicious, resulting in no alert being raised. Other solutions similarly did not detect the surrogate execution technique, allowing the process to run without generating any form of warning or intervention. 
+These observations highlight significant detection blind spots across multiple industry-standard platforms and underscore the need for improved behavioral analysis capabilities within modern EDR technologies.
 
 
 ## 6. Conclusion
