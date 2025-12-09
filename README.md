@@ -237,8 +237,6 @@ https://github.com/user-attachments/assets/155cae35-01f4-416a-be67-afd72c26dcff
 
 Bypass – likewise, no detection by SentinelOne.
 
-https://github.com/user-attachments/assets/77e87580-4d56-464d-889e-1a5f23210ccc
-
 
 
 ## 6. Conclusion
